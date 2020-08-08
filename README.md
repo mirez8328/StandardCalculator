@@ -1,3 +1,3 @@
-Visit: <a href="https://mirez8328.github.io/StandardCalculator/"> Click Here </a>
-https://mirez8328.github.io/StandardCalculator/
+Visit: <a href="https://mirez8328.github.io/StandardCalculator/"> Click Here </a> <br>
+https://standardcalculator.000webhostapp.com/
 ![WebView](Standard.png)

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h1>Standard Calculator</h1>
+
+    <div class="card">
+        <div class="calc-head">
+            <textarea type="text" id="result2" disabled></textarea>
+            <textarea type="number" id="result" disabled>0</textarea>
+        </div>
+        <div class="calc-body">
+            <div id="standard">
+                <div class="row">
+                    <input type="button" class="btn" value="&#x221Ax" id="squareroot" onclick="Squareroot()">
+                    <input type="button" class="btn" value="%" id="percentage" onclick="Percentage()">
+                    <input type="button" class="btn" value="C" id="clear" onclick="Clear()">
+                    <input type="button" class="btn" value="⌫" id="delete" onclick="Delete()">
+                    <input type="button" class="btn" value="÷" id="division" onclick="Division()">
+                </div>
+                <div class="row">
+                    <input type="button" class="btn" value="&#x221Bx" id="cuberoot" onclick="Cuberoot()">
+                    <input type="button" class="btn digit" value="7" id="d7" onclick="Seven()">
+                    <input type="button" class="btn digit" value="8" id="d8" onclick="Eight()">
+                    <input type="button" class="btn digit" value="9" id="d9" onclick="Nine()">
+                    <input type="button" class="btn" value="×" id="multiplication" onclick="Multiplication()">
+                </div>
+                <div class="row">
+                    <button class="btn" id="square" onclick="Square()">x<sup>2</sup></button>
+                    <input type="button" class="btn digit" value="4" id="d4" onclick="Four()">
+                    <input type="button" class="btn digit" value="5" id="d5" onclick="Five()">
+                    <input type="button" class="btn digit" value="6" id="d6" onclick="Six()">
+                    <input type="button" class="btn" value="−" id="subtraction" onclick="Subtraction()">
+                </div>
+                <div class="row">
+                    <button class="btn" id="cube" onclick="Cube()">x<sup>3</sup></button>
+                    <input type="button" class="btn digit" value="1" id="d1" onclick="One()">
+                    <input type="button" class="btn digit" value="2" id="d2" onclick="Two()">
+                    <input type="button" class="btn digit" value="3" id="d3" onclick="Three()">
+                    <input type="button" class="btn" value="+" id="addition" onclick="Addition()">
+                </div>
+                <div class="row">
+                    <button class="btn" value="" id="oneby" onclick="OneBy()">1⁄x</button>
+                    <input type="button" class="btn" value="±" id="negation" onclick="Negation()">
+                    <input type="button" class="btn digit" value="0" id="d0" onclick="Zero()">
+                    <input type="button" class="btn" id="point" value="." onclick="Point()">
+                    <input type="button" class="btn" value="=" id="calculate" onclick="Calculate()">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js">   </script>
+</body>
+</html>
